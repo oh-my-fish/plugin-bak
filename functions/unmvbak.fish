@@ -2,5 +2,5 @@
 # (c) Roman Inflianskas (rominf) <infroma@gmail.com>, 2014
 
 function unmvbak --description 'Move files to revert a backup copies to a normal files'
-  __unbak unmvbak mv $argv
+  __bak_unbak unmvbak mv $argv
 end
