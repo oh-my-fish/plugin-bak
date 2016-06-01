@@ -2,5 +2,5 @@
 # (c) Roman Inflianskas (rominf) <infroma@gmail.com>, 2014
 
 function uncpbak --description 'Copy files to revert a backup copies to a normal files'
-  __unbak uncpbak 'cp -a' $argv
+  __bak_unbak uncpbak 'cp -a' $argv
 end
