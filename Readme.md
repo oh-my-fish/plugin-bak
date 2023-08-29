@@ -8,10 +8,6 @@ With [Oh-My-Fish](https://www.github.com/oh-my-fish/oh-my-fish):
 
     omf install bak
 
-Without Oh-My-Fish:
-
-    TODO
-
 ## Usage
 
     cpbak filename
