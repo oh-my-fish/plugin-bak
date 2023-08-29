@@ -3,7 +3,7 @@ function __bak
   or begin
     set program $argv[2]
     for file in $argv[3..-1]
-      eval $program $file (__bak_name $file)
+      eval $program \"$file\" (__bak_name \"$file\")
     end
   end
 end
