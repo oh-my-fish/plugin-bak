@@ -11,7 +11,7 @@ function __bak_unbak
       else if test -e $normalized
         echo "File \"$normalized\" exists! Cannot unbak \"$file\"."
       else
-        eval $program $file $normalized
+        eval $program \"$file\" \"$normalized\"
       end
     end
   end
